@@ -10,6 +10,8 @@ Used a variety of materials (glass, plywood) and items (chair, table)
 ### Classes
 1. Burnt
  * Class to represent the burn damage type. This class extends the Damage class.
+ * Constructor: Burnt()
+  * The constructor will call the super class' constructor, Damage and pass on the word 'burn'
 
 2. Chair
  * Class to represent the chair furniture. This class extends the Furniture class.
