@@ -22,6 +22,15 @@ Used a variety of materials (glass, plywood) and items (chair, table)
 
 5. Furniture
 * Class to represent objects' status
+* Constructor: Furniture(String furnitureType, Material materialType)
+** The constructor will create the furniture with the given furnitureType and materialType.
+* Functions:
+** getMaterial()
+*** This function will return the material type of a Furniture class variable
+** getFurnitureType()
+*** This function will return the furniture type of a Furniture class variable
+** printStatus()
+*** This function will print the status of a Furniture class variable
 
 6. Glass
 * Class to represent the Glass' material. This class extends the Material class.
