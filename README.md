@@ -11,7 +11,7 @@ Used a variety of materials (glass, plywood) and items (chair, table)
 1. Burnt
  * Class to represent the burn damage type. This class extends the Damage class.
  * Constructor: Burnt()
-  * The constructor will call the super class' constructor, Damage and pass on the word 'burn'
+   * The constructor will call the super class' constructor, Damage and pass on the word 'burn'
 
 2. Chair
  * Class to represent the chair furniture. This class extends the Furniture class.
@@ -25,7 +25,7 @@ Used a variety of materials (glass, plywood) and items (chair, table)
 5. Furniture
  * Class to represent objects' status
  * Constructor: Furniture(String furnitureType, Material materialType)
-   * The constructor will create the furniture with the given furnitureType and materialType.
+ * The constructor will create the furniture with the given furnitureType and materialType.
  * Functions:
    * getMaterial()
      * This function will return the material type of a Furniture class variable
