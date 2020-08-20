@@ -1,10 +1,39 @@
-# PairProgramming4
+# Polymorphism Exercise 4
+
 Pair Programming - Polymorphism exercise (4th exercise)
 Created April 18th, 2019
 
-
-This is an exercise for Polymorphism. Previously done as a group exercise.
+## Overview
+This is an exercise for Polymorphism.
 Used a variety of materials (glass, plywood) and items (chair, table)
+
+### Classes
+1. Burnt
+* Class to represent the burn damage type. This class extends the Damage class.
+
+2. Chair
+* Class to represent the chair furniture. This class extends the Furniture class.
+
+3. Damage
+* Class to represent damage types
+
+4. Destruction
+* Main class to serve as the program driver
+
+5. Furniture
+* Class to represent objects' status
+
+6. Glass
+* Class to represent the Glass' material. This class extends the Material class.
+
+7. Material
+* Class to represent various materials type. This class handles hitting and setting on fire events.
+
+8. Plywood
+* Class to represent the plywood material. This class extends the Material class.
+
+9. Table
+* Class to represent the table furniture. This class extends the Furniture class. This class will hold a material type.
 
 - Burnt.java - Class for the burn damage type. Extends Damage.
 - Chair.java - Class for chair furniture. Extends Furniture. Accepts a material (glass/plywood)
