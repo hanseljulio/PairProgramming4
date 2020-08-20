@@ -15,9 +15,14 @@ Used a variety of materials (glass, plywood) and items (chair, table)
 
 2. Chair
  * Class to represent the chair furniture. This class extends the Furniture class.
+ * Constructor: Chair(Material material)
+   * The constructor will call the super class' constructor, Furniture, takes a Material as its argument and pass on the word 'chair' and its material.
+
 
 3. Damage
  * Class to represent damage types
+ * Constructor: Damage(String damageType)
+   * The constructor will take in a damageType argument, setting it to that specific argument
 
 4. Destruction
  * Main class to serve as the program driver
