@@ -1,13 +1,14 @@
 # Polymorphism Exercise 4
 
-Pair Programming - Polymorphism exercise (4th exercise)
-Created April 18th, 2019
+* Pair Programming - Polymorphism exercise (4th exercise)
+* Created April 18th, 2019
 
 -------------------------------------------------------------------------------
 
 ## Overview
-This is an exercise for Polymorphism.
-Used a variety of materials (glass, plywood) and items (chair, table)
+* This is an exercise for Polymorphism.
+* Used a variety of materials (glass, plywood) and items (chair, table) as examples.
+* Items are made of materials, and can be either hit or burnt, depending on the material.
 
 -------------------------------------------------------------------------------
 
